@@ -12,6 +12,7 @@ namespace LeaveSystem.Domain.Entites
         public int Id { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
+        public required string Reason {  get; set; }
         public required string EmployeeId { get; set; }
         public required User Employee { get; set; }
         public LeaveStatus Status { get; set; } = LeaveStatus.Pending;
