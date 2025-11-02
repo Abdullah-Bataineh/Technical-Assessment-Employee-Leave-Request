@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using LeaveSystem.Appliction.Exceptions;
 using LeaveSystem.Appliction.Interfaces.Respositories;
 using LeaveSystem.Domain.Entites;
 using LeaveSystem.Infrastructure.Data;
@@ -39,7 +40,12 @@ namespace LeaveSystem.Infrastructure.Respositories
         public async Task<Leave> GetById(int id)
         {
             
-            return await _context.Leaves.Include(l => l.Employee).FirstOrDefaultAsync(l => l.Id == id);
+             var leave=await _context.Leaves.Include(l => l.Employee).FirstOrDefaultAsync(l => l.Id == id);
+            if (leave == null)
+            {
+                throw new BusinessException($"Leave with Id {id} not found");
+            }
+            return leave;
         }
 
         public async Task Update(Leave leave)
