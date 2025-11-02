@@ -1,5 +1,8 @@
+using LeaveSystem.Appliction.Interfaces.Respositories;
+using LeaveSystem.Appliction.Services;
 using LeaveSystem.Domain.Entites;
 using LeaveSystem.Infrastructure.Data;
+using LeaveSystem.Infrastructure.Respositories;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -21,6 +24,9 @@ namespace LeaveSystem.UI
                
             }).AddEntityFrameworkStores<ApplicationDbContext>()
             .AddDefaultTokenProviders();
+
+            builder.Services.AddScoped<ILeaveRepositories,LeaveRepositories>();
+            builder.Services.AddScoped<LeaveServices>();
             // Add services to the container.
             builder.Services.AddRazorPages();
 

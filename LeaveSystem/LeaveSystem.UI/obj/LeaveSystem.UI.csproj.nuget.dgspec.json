@@ -270,6 +270,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Appliction\\LeaveSystem.Appliction.csproj": {
+                "projectPath": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Appliction\\LeaveSystem.Appliction.csproj"
+              },
               "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Domain\\LeaveSystem.Domain.csproj": {
                 "projectPath": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Domain\\LeaveSystem.Domain.csproj"
               },
