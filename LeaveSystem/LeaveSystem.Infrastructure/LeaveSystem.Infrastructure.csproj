@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\LeaveSystem.Appliction\LeaveSystem.Appliction.csproj" />
     <ProjectReference Include="..\LeaveSystem.Domain\LeaveSystem.Domain.csproj" />
   </ItemGroup>
 
