@@ -1,0 +1,16 @@
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Appliction\bin\Debug\net8.0\LeaveSystem.Appliction.deps.json
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Appliction\bin\Debug\net8.0\LeaveSystem.Appliction.dll
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Appliction\bin\Debug\net8.0\LeaveSystem.Appliction.pdb
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Appliction\bin\Debug\net8.0\LeaveSystem.Domain.dll
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Appliction\bin\Debug\net8.0\LeaveSystem.Domain.pdb
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Appliction\obj\Debug\net8.0\LeaveSystem.Appliction.csproj.AssemblyReference.cache
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Appliction\obj\Debug\net8.0\LeaveSystem.Appliction.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Appliction\obj\Debug\net8.0\LeaveSystem.Appliction.AssemblyInfoInputs.cache
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Appliction\obj\Debug\net8.0\LeaveSystem.Appliction.AssemblyInfo.cs
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Appliction\obj\Debug\net8.0\LeaveSystem.Appliction.csproj.CoreCompileInputs.cache
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Appliction\obj\Debug\net8.0\LeaveSystem.Appliction.sourcelink.json
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Appliction\obj\Debug\net8.0\LeaveSys.7304492E.Up2Date
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Appliction\obj\Debug\net8.0\LeaveSystem.Appliction.dll
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Appliction\obj\Debug\net8.0\refint\LeaveSystem.Appliction.dll
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Appliction\obj\Debug\net8.0\LeaveSystem.Appliction.pdb
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Appliction\obj\Debug\net8.0\ref\LeaveSystem.Appliction.dll

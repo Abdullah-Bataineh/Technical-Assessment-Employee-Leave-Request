@@ -2,6 +2,7 @@ using LeaveSystem.Appliction.Interfaces.Respositories;
 using LeaveSystem.Appliction.Services;
 using LeaveSystem.Domain.Entites;
 using LeaveSystem.Infrastructure.Data;
+using LeaveSystem.Infrastructure.MiddleWare;
 using LeaveSystem.Infrastructure.Respositories;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -13,7 +14,7 @@ namespace LeaveSystem.UI
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-            builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("")));
+            builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             builder.Services.AddIdentity<User, IdentityRole>(options =>
             {
@@ -39,7 +40,7 @@ namespace LeaveSystem.UI
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-
+            app.UseMiddleware<ExcpetionAndLoggingMiddleWare>();
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseHttpsRedirection();
