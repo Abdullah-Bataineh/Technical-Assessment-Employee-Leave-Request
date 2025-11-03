@@ -3,7 +3,7 @@ using LeaveSystem.Domain.Entites;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace LeaveSystem.UI.Pages
+namespace LeaveSystem.UI.Pages.Account
 {
     public class RegisterModel(UserServices userServices) : PageModel
     {
