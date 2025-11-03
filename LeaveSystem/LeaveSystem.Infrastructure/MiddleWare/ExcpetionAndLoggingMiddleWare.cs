@@ -24,7 +24,7 @@ namespace LeaveSystem.Infrastructure.MiddleWare
         {
             try
             {
-
+                await _requestDelegate(context);
             }
             catch (Exception ex)
             {

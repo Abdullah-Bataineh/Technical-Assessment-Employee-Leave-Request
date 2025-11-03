@@ -13,6 +13,7 @@ namespace LeaveSystem.UI
     {
         public static void Main(string[] args)
         {
+            
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -25,11 +26,13 @@ namespace LeaveSystem.UI
                
             }).AddEntityFrameworkStores<ApplicationDbContext>()
             .AddDefaultTokenProviders();
-
             builder.Services.AddScoped<ILeaveRepositories,LeaveRepositories>();
+            builder.Services.AddScoped<IUserRespositories,UserRepositories>();
+            builder.Services.AddScoped<UserServices>();
             builder.Services.AddScoped<LeaveServices>();
             // Add services to the container.
             builder.Services.AddRazorPages();
+
 
             var app = builder.Build();
 
@@ -40,16 +43,14 @@ namespace LeaveSystem.UI
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+            app.UseRouting();
             app.UseMiddleware<ExcpetionAndLoggingMiddleWare>();
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
-            app.UseRouting();
-
-            app.UseAuthorization();
-
+            
             app.MapRazorPages();
 
             app.Run();
