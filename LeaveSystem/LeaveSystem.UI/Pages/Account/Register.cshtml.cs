@@ -1,24 +1,23 @@
+using LeaveSystem.Appliction.Exceptions;
 using LeaveSystem.Appliction.Services;
+using LeaveSystem.Domain.DTO;
 using LeaveSystem.Domain.Entites;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace LeaveSystem.UI.Pages.Account
 {
-    public class RegisterModel(UserServices userServices) : PageModel
+    public class RegisterModel:PageModel
     {
-        private readonly UserServices _userServices = userServices;
+        private readonly UserServices _userServices;
+        public RegisterModel(UserServices userServices)
+        {
+            _userServices = userServices;
+        }
 
         [BindProperty]
-        public required RegisterInputModel Input { get; set; }
-        public class RegisterInputModel
-        {
-            public string FirstName { get; set; } = string.Empty;
-            public string LastName { get; set; } = string.Empty;
-            public string Email { get; set; } = string.Empty;
-            public string Password { get; set; } = string.Empty;
-            public string Role { get; set; } = "Employee";
-        }
+        public required RegisterDTO Input { get; set; }
+       
         public void OnGet()
         {
         }
@@ -27,24 +26,31 @@ namespace LeaveSystem.UI.Pages.Account
             if (!ModelState.IsValid)
                 return Page();
 
-            var user = new User
+            try
             {
-                UserName = Input.Email,
-                Email = Input.Email,
-                FirstName = Input.FirstName,
-                LastName = Input.LastName
-            };
+                var user = new User
+                {
+                    UserName = Input.Email,
+                    Email = Input.Email,
+                    FirstName = Input.FirstName,
+                    LastName = Input.LastName
+                };
 
-            var result = await _userServices.RegisterUser(user, Input.Password, Input.Role);
+                var result = await _userServices.RegisterUser(user, Input.Password, Input.Role);
 
-            if (result.Succeeded)
-            {
-                return RedirectToPage("/Index");
+                if (result.Succeeded)
+                    return RedirectToPage("/Index");
+
+                foreach (var error in result.Errors)
+                    ModelState.AddModelError(string.Empty, error.Description);
             }
-
-            foreach (var error in result.Errors)
+            catch (BusinessException ex)
             {
-                ModelState.AddModelError(string.Empty, error.Description);
+                ModelState.AddModelError(string.Empty, ex.Message);
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError(string.Empty, "Unexpected error occurred during registration");
             }
 
             return Page();

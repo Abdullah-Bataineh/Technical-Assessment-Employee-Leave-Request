@@ -48,6 +48,15 @@ namespace LeaveSystem.Infrastructure.Respositories
             return leave;
         }
 
+        public async Task<List<Leave>> GetLeaveByEmployeeId(string EmployeeId)
+        {
+            return await _context.Leaves.Where(l => l.EmployeeId == EmployeeId)
+            .Include(l => l.Employee) 
+            .OrderByDescending(l => l.StartDate)
+            .ToListAsync();
+           
+        }
+
         public async Task Update(Leave leave)
         {
             _context.Leaves.Update(leave);

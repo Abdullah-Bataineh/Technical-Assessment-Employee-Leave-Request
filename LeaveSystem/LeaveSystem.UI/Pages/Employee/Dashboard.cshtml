@@ -1,0 +1,190 @@
+﻿@page
+@model LeaveSystem.UI.Pages.Employee.DashboardModel
+@{
+}
+
+<style>
+    .status-box {
+        display: inline-block;
+        padding: 4px 10px;
+        border-radius: 5px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+        .status-box.pending {
+            background-color: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeeba;
+        }
+
+        .status-box.approved {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .status-box.rejected {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+</style>
+<div>
+<div class="d-flex justify-content-start align-items-center mb-3">
+    <h3>Leaves Dashboard</h3>
+</div>
+
+    <div class="mb-3" id="filterOptions">
+        <form method="get" class="d-flex gap-3 flex-wrap align-items-end p-3 border rounded bg-light" id="filterForm">
+            <div>
+                <label for="FilterStatus" class="form-label mb-0">Status Filter:</label>
+                <select asp-for="FilterStatus" class="form-select form-select-sm">
+                    <option value="">All</option>
+                    <option value="Pending">Pending</option>
+                    <option value="Approved">Approved</option>
+                    <option value="Rejected">Rejected</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="FilterStartDate" class="form-label mb-0">Start Date (From):</label>
+                <input type="date"
+                       asp-for="FilterStartDate"
+                       class="form-control form-control-sm" />
+            </div>
+
+            <div>
+                <label for="FilterEndDate" class="form-label mb-0">End Date (To):</label>
+                <input type="date"
+                       asp-for="FilterEndDate"
+                       class="form-control form-control-sm" />
+            </div>
+
+            <div>
+                <label for="SortColumn" class="form-label mb-0">Sort By Column:</label>
+                <select asp-for="SortColumn" class="form-select form-select-sm">
+                    <option value="StartDate">Start Date</option>
+                    <option value="EndDate">End Date</option>
+                    <option value="Status">Status</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="SortDirection" class="form-label mb-0">Sort Direction:</label>
+                <select asp-for="SortDirection" class="form-select form-select-sm">
+                    <option value="asc">Ascending (A-Z/Oldest)</option>
+                    <option value="desc">Descending (Z-A/Newest)</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-sm">
+                <i class="bi bi-search"></i> Apply All
+            </button>
+
+            <a asp-page="" class="btn btn-outline-danger btn-sm">
+                <i class="bi bi-x-circle"></i> Reset
+            </a>
+
+        </form>
+    </div>
+</div>
+@{
+    var firstError = ViewData.ModelState.Values
+    .SelectMany(v => v.Errors)
+    .Select(e => e.ErrorMessage)
+    .FirstOrDefault();
+}
+
+@if (!string.IsNullOrEmpty(firstError))
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @firstError
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<table class="table table-bordered table-striped">
+    <thead class="table-light">
+        <tr>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Status</th>
+            <th>Reason</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Leaves.Any())
+        {
+            @foreach (var leave in Model.Leaves)
+            {
+                <tr>
+                    <td>@leave.StartDate.ToShortDateString()</td>
+                    <td>@leave.EndDate.ToShortDateString()</td>
+                    <td>
+                        <span class="status-box @leave.Status.ToString().ToLower()">
+                            @leave.Status
+                        </span>
+                    </td>
+                    <td>@leave.Reason</td>
+                    <td>
+                        @if (leave.Status.ToString() == "Pending")
+                        {
+                        <button type="button"
+                                class="btn btn-sm btn-danger"
+                                data-bs-toggle="modal"
+                                data-bs-target="#deleteModal"
+                                data-leave-id="@leave.Id">
+                            Delete
+                        </button>
+                        }
+                        else{
+
+                        }
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5" class="text-center">No leaves found.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteModalLabel">Confirm Delete</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to delete this leave?
+            </div>
+            <div class="modal-footer">
+                <form method="post" asp-page-handler="Delete">
+                    <input type="hidden" id="leaveIdInput" name="id" />
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-danger">Yes, Delete</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var deleteModal = document.getElementById('deleteModal');
+            deleteModal.addEventListener('show.bs.modal', function (event) {
+                var button = event.relatedTarget; 
+                var leaveId = button.getAttribute('data-leave-id'); 
+                var input = deleteModal.querySelector('#leaveIdInput'); 
+                input.value = leaveId;
+            });
+        });
+    </script>
+}

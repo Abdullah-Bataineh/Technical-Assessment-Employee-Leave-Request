@@ -1,0 +1,68 @@
+﻿@page
+@model LeaveSystem.UI.Pages.Account.LoginModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = null;
+
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/LeaveSystem.UI.styles.css" asp-append-version="true" />
+</head>
+<body>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card shadow-sm rounded-4">
+                    <div class="card-body">
+    <h3 class="text-center mb-4">Login</h3>
+        @{
+            var firstError = ViewData.ModelState.Values
+            .SelectMany(v => v.Errors)
+            .Select(e => e.ErrorMessage)
+            .FirstOrDefault();
+        }
+
+        @if (!string.IsNullOrEmpty(firstError))
+        {
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                @firstError
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+    <form method="post">
+        <div class="mb-3">
+            <label asp-for="Input.Email" class="form-label"></label>
+            <input asp-for="Input.Email" class="form-control" />
+            <span asp-validation-for="Input.Email" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Input.Password" class="form-label"></label>
+            <input asp-for="Input.Password" type="password" class="form-control" />
+            <span asp-validation-for="Input.Password" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">Login</button>
+
+        <div class="text-center mt-3">
+            <a href="Register">Create new account</a>
+        </div>
+    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>
