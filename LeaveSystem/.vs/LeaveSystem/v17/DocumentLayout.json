@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Infrastructure\\Migrations\\20251103234427_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LeaveSystem.Infrastructure\\Migrations\\20251103234427_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B6B7A8A5-8F94-4C12-9EF2-2513D40A5440}|LeaveSystem.UI\\LeaveSystem.UI.csproj|c:\\projects\\abdullah bataineh learning\\technical-assessment-employee-leave-request\\leavesystem\\leavesystem.ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B6B7A8A5-8F94-4C12-9EF2-2513D40A5440}|LeaveSystem.UI\\LeaveSystem.UI.csproj|solutionrelative:leavesystem.ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B7A8A5-8F94-4C12-9EF2-2513D40A5440}|LeaveSystem.UI\\LeaveSystem.UI.csproj|c:\\projects\\abdullah bataineh learning\\technical-assessment-employee-leave-request\\leavesystem\\leavesystem.ui\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6B7A8A5-8F94-4C12-9EF2-2513D40A5440}|LeaveSystem.UI\\LeaveSystem.UI.csproj|solutionrelative:leavesystem.ui\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681C6348-5713-4CF7-99E2-17A07B5BE5B9}|LeaveSystem.Infrastructure\\LeaveSystem.Infrastructure.csproj|c:\\projects\\abdullah bataineh learning\\technical-assessment-employee-leave-request\\leavesystem\\leavesystem.infrastructure\\respositories\\userrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681C6348-5713-4CF7-99E2-17A07B5BE5B9}|LeaveSystem.Infrastructure\\LeaveSystem.Infrastructure.csproj|solutionrelative:leavesystem.infrastructure\\respositories\\userrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B7A8A5-8F94-4C12-9EF2-2513D40A5440}|LeaveSystem.UI\\LeaveSystem.UI.csproj|c:\\projects\\abdullah bataineh learning\\technical-assessment-employee-leave-request\\leavesystem\\leavesystem.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B7A8A5-8F94-4C12-9EF2-2513D40A5440}|LeaveSystem.UI\\LeaveSystem.UI.csproj|solutionrelative:leavesystem.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681C6348-5713-4CF7-99E2-17A07B5BE5B9}|LeaveSystem.Infrastructure\\LeaveSystem.Infrastructure.csproj|c:\\projects\\abdullah bataineh learning\\technical-assessment-employee-leave-request\\leavesystem\\leavesystem.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681C6348-5713-4CF7-99E2-17A07B5BE5B9}|LeaveSystem.Infrastructure\\LeaveSystem.Infrastructure.csproj|solutionrelative:leavesystem.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B7A8A5-8F94-4C12-9EF2-2513D40A5440}|LeaveSystem.UI\\LeaveSystem.UI.csproj|c:\\projects\\abdullah bataineh learning\\technical-assessment-employee-leave-request\\leavesystem\\leavesystem.ui\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B7A8A5-8F94-4C12-9EF2-2513D40A5440}|LeaveSystem.UI\\LeaveSystem.UI.csproj|solutionrelative:leavesystem.ui\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6B7A8A5-8F94-4C12-9EF2-2513D40A5440}|LeaveSystem.UI\\LeaveSystem.UI.csproj|c:\\projects\\abdullah bataineh learning\\technical-assessment-employee-leave-request\\leavesystem\\leavesystem.ui\\pages\\employee\\dashboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{727EF159-7B67-4056-ABED-1EF09AF53673}|LeaveSystem.Domain\\LeaveSystem.Domain.csproj|c:\\projects\\abdullah bataineh learning\\technical-assessment-employee-leave-request\\leavesystem\\leavesystem.domain\\dto\\leavedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{727EF159-7B67-4056-ABED-1EF09AF53673}|LeaveSystem.Domain\\LeaveSystem.Domain.csproj|solutionrelative:leavesystem.domain\\dto\\leavedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6B7A8A5-8F94-4C12-9EF2-2513D40A5440}|LeaveSystem.UI\\LeaveSystem.UI.csproj|c:\\projects\\abdullah bataineh learning\\technical-assessment-employee-leave-request\\leavesystem\\leavesystem.ui\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B7A8A5-8F94-4C12-9EF2-2513D40A5440}|LeaveSystem.UI\\LeaveSystem.UI.csproj|solutionrelative:leavesystem.ui\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6B7A8A5-8F94-4C12-9EF2-2513D40A5440}|LeaveSystem.UI\\LeaveSystem.UI.csproj|c:\\projects\\abdullah bataineh learning\\technical-assessment-employee-leave-request\\leavesystem\\leavesystem.ui\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,10 +79,6 @@
       "RelativeMoniker": "D:0:0:{63F3EF3F-611D-4B28-B8A2-A77C690A142F}|LeaveSystem.Appliction\\LeaveSystem.Appliction.csproj|solutionrelative:leavesystem.appliction\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{681C6348-5713-4CF7-99E2-17A07B5BE5B9}|LeaveSystem.Infrastructure\\LeaveSystem.Infrastructure.csproj|c:\\projects\\abdullah bataineh learning\\technical-assessment-employee-leave-request\\leavesystem\\leavesystem.infrastructure\\respositories\\userrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{681C6348-5713-4CF7-99E2-17A07B5BE5B9}|LeaveSystem.Infrastructure\\LeaveSystem.Infrastructure.csproj|solutionrelative:leavesystem.infrastructure\\respositories\\userrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{681C6348-5713-4CF7-99E2-17A07B5BE5B9}|LeaveSystem.Infrastructure\\LeaveSystem.Infrastructure.csproj|c:\\projects\\abdullah bataineh learning\\technical-assessment-employee-leave-request\\leavesystem\\leavesystem.infrastructure\\middleware\\excpetionandloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{681C6348-5713-4CF7-99E2-17A07B5BE5B9}|LeaveSystem.Infrastructure\\LeaveSystem.Infrastructure.csproj|solutionrelative:leavesystem.infrastructure\\middleware\\excpetionandloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -95,10 +103,6 @@
       "RelativeMoniker": "D:0:0:{727EF159-7B67-4056-ABED-1EF09AF53673}|LeaveSystem.Domain\\LeaveSystem.Domain.csproj|solutionrelative:leavesystem.domain\\entites\\leave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6B7A8A5-8F94-4C12-9EF2-2513D40A5440}|LeaveSystem.UI\\LeaveSystem.UI.csproj|c:\\projects\\abdullah bataineh learning\\technical-assessment-employee-leave-request\\leavesystem\\leavesystem.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B7A8A5-8F94-4C12-9EF2-2513D40A5440}|LeaveSystem.UI\\LeaveSystem.UI.csproj|solutionrelative:leavesystem.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B6B7A8A5-8F94-4C12-9EF2-2513D40A5440}|LeaveSystem.UI\\LeaveSystem.UI.csproj|c:\\projects\\abdullah bataineh learning\\technical-assessment-employee-leave-request\\leavesystem\\leavesystem.ui\\pages\\employee\\takeleave.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B6B7A8A5-8F94-4C12-9EF2-2513D40A5440}|LeaveSystem.UI\\LeaveSystem.UI.csproj|solutionrelative:leavesystem.ui\\pages\\employee\\takeleave.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -107,20 +111,12 @@
       "RelativeMoniker": "D:0:0:{63F3EF3F-611D-4B28-B8A2-A77C690A142F}|LeaveSystem.Appliction\\LeaveSystem.Appliction.csproj|solutionrelative:leavesystem.appliction\\exceptions\\businessexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{681C6348-5713-4CF7-99E2-17A07B5BE5B9}|LeaveSystem.Infrastructure\\LeaveSystem.Infrastructure.csproj|c:\\projects\\abdullah bataineh learning\\technical-assessment-employee-leave-request\\leavesystem\\leavesystem.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{681C6348-5713-4CF7-99E2-17A07B5BE5B9}|LeaveSystem.Infrastructure\\LeaveSystem.Infrastructure.csproj|solutionrelative:leavesystem.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{727EF159-7B67-4056-ABED-1EF09AF53673}|LeaveSystem.Domain\\LeaveSystem.Domain.csproj|c:\\projects\\abdullah bataineh learning\\technical-assessment-employee-leave-request\\leavesystem\\leavesystem.domain\\entites\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{727EF159-7B67-4056-ABED-1EF09AF53673}|LeaveSystem.Domain\\LeaveSystem.Domain.csproj|solutionrelative:leavesystem.domain\\entites\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63F3EF3F-611D-4B28-B8A2-A77C690A142F}|LeaveSystem.Appliction\\LeaveSystem.Appliction.csproj|c:\\projects\\abdullah bataineh learning\\technical-assessment-employee-leave-request\\leavesystem\\leavesystem.appliction\\interfaces\\respositories\\ileaverepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63F3EF3F-611D-4B28-B8A2-A77C690A142F}|LeaveSystem.Appliction\\LeaveSystem.Appliction.csproj|solutionrelative:leavesystem.appliction\\interfaces\\respositories\\ileaverepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6B7A8A5-8F94-4C12-9EF2-2513D40A5440}|LeaveSystem.UI\\LeaveSystem.UI.csproj|c:\\projects\\abdullah bataineh learning\\technical-assessment-employee-leave-request\\leavesystem\\leavesystem.ui\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B6B7A8A5-8F94-4C12-9EF2-2513D40A5440}|LeaveSystem.UI\\LeaveSystem.UI.csproj|solutionrelative:leavesystem.ui\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6B7A8A5-8F94-4C12-9EF2-2513D40A5440}|LeaveSystem.UI\\LeaveSystem.UI.csproj|c:\\projects\\abdullah bataineh learning\\technical-assessment-employee-leave-request\\leavesystem\\leavesystem.ui\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -177,6 +173,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{727EF159-7B67-4056-ABED-1EF09AF53673}|LeaveSystem.Domain\\LeaveSystem.Domain.csproj|c:\\projects\\abdullah bataineh learning\\technical-assessment-employee-leave-request\\leavesystem\\leavesystem.domain\\enums\\leavestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{727EF159-7B67-4056-ABED-1EF09AF53673}|LeaveSystem.Domain\\LeaveSystem.Domain.csproj|solutionrelative:leavesystem.domain\\enums\\leavestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681C6348-5713-4CF7-99E2-17A07B5BE5B9}|LeaveSystem.Infrastructure\\LeaveSystem.Infrastructure.csproj|c:\\projects\\abdullah bataineh learning\\technical-assessment-employee-leave-request\\leavesystem\\leavesystem.infrastructure\\migrations\\20251103234427_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681C6348-5713-4CF7-99E2-17A07B5BE5B9}|LeaveSystem.Infrastructure\\LeaveSystem.Infrastructure.csproj|solutionrelative:leavesystem.infrastructure\\migrations\\20251103234427_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -186,7 +186,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -194,85 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20251103234427_InitialCreate.cs",
-              "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Infrastructure\\Migrations\\20251103234427_InitialCreate.cs",
-              "RelativeDocumentMoniker": "LeaveSystem.Infrastructure\\Migrations\\20251103234427_InitialCreate.cs",
-              "ToolTip": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Infrastructure\\Migrations\\20251103234427_InitialCreate.cs",
-              "RelativeToolTip": "LeaveSystem.Infrastructure\\Migrations\\20251103234427_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T23:44:27.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "LeaveSystem.UI\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBMAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T07:33:28.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Dashboard.cshtml.cs",
-              "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Employee\\Dashboard.cshtml.cs",
-              "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Employee\\Dashboard.cshtml.cs",
-              "ToolTip": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Employee\\Dashboard.cshtml.cs",
-              "RelativeToolTip": "LeaveSystem.UI\\Pages\\Employee\\Dashboard.cshtml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAvwBgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T16:44:23.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TakeLeave.cshtml.cs",
-              "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Employee\\TakeLeave.cshtml.cs",
-              "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Employee\\TakeLeave.cshtml.cs",
-              "ToolTip": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Employee\\TakeLeave.cshtml.cs",
-              "RelativeToolTip": "LeaveSystem.UI\\Pages\\Employee\\TakeLeave.cshtml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAuwBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T16:59:31.392Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Dashboard.cshtml.cs",
-              "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Manager\\Dashboard.cshtml.cs",
-              "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Manager\\Dashboard.cshtml.cs",
-              "ToolTip": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Manager\\Dashboard.cshtml.cs",
-              "RelativeToolTip": "LeaveSystem.UI\\Pages\\Manager\\Dashboard.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T21:00:44.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "LeaveSystem.UI\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-03T07:11:28.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Account\\Login.cshtml",
@@ -280,12 +202,132 @@
               "RelativeToolTip": "LeaveSystem.UI\\Pages\\Account\\Login.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-03T14:35:26.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T14:35:26.636Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Program.cs",
+              "RelativeDocumentMoniker": "LeaveSystem.UI\\Program.cs",
+              "ToolTip": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Program.cs",
+              "RelativeToolTip": "LeaveSystem.UI\\Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAArwDQAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T18:46:48.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Index.cshtml",
+              "RelativeToolTip": "LeaveSystem.UI\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-02T21:59:45.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\appsettings.json",
+              "RelativeDocumentMoniker": "LeaveSystem.UI\\appsettings.json",
+              "ToolTip": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\appsettings.json",
+              "RelativeToolTip": "LeaveSystem.UI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-02T18:46:48.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LeaveSystem.UI\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T07:11:28.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Dashboard.cshtml.cs",
+              "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Manager\\Dashboard.cshtml.cs",
+              "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Manager\\Dashboard.cshtml.cs",
+              "ToolTip": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Manager\\Dashboard.cshtml.cs",
+              "RelativeToolTip": "LeaveSystem.UI\\Pages\\Manager\\Dashboard.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T21:00:44.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "LeaveSystem.UI\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T07:33:28.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TakeLeave.cshtml.cs",
+              "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Employee\\TakeLeave.cshtml.cs",
+              "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Employee\\TakeLeave.cshtml.cs",
+              "ToolTip": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Employee\\TakeLeave.cshtml.cs",
+              "RelativeToolTip": "LeaveSystem.UI\\Pages\\Employee\\TakeLeave.cshtml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T16:59:31.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dashboard.cshtml.cs",
+              "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Employee\\Dashboard.cshtml.cs",
+              "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Employee\\Dashboard.cshtml.cs",
+              "ToolTip": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Employee\\Dashboard.cshtml.cs",
+              "RelativeToolTip": "LeaveSystem.UI\\Pages\\Employee\\Dashboard.cshtml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAvwBgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T16:44:23.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "LeaveSystem.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "LeaveSystem.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T18:39:28.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20251103234427_InitialCreate.cs",
+              "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Infrastructure\\Migrations\\20251103234427_InitialCreate.cs",
+              "RelativeDocumentMoniker": "LeaveSystem.Infrastructure\\Migrations\\20251103234427_InitialCreate.cs",
+              "ToolTip": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Infrastructure\\Migrations\\20251103234427_InitialCreate.cs",
+              "RelativeToolTip": "LeaveSystem.Infrastructure\\Migrations\\20251103234427_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T23:44:27.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Dashboard.cshtml",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Employee\\Dashboard.cshtml",
               "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Employee\\Dashboard.cshtml",
@@ -293,25 +335,11 @@
               "RelativeToolTip": "LeaveSystem.UI\\Pages\\Employee\\Dashboard.cshtml",
               "ViewState": "AgIAAIIAAAAAAAAAAAAUwJcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-03T16:29:35.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T16:29:35.605Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\appsettings.json",
-              "RelativeDocumentMoniker": "LeaveSystem.UI\\appsettings.json",
-              "ToolTip": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\appsettings.json",
-              "RelativeToolTip": "LeaveSystem.UI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-02T18:46:48.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Account\\Login.cshtml.cs",
@@ -319,12 +347,11 @@
               "RelativeToolTip": "LeaveSystem.UI\\Pages\\Account\\Login.cshtml.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAqwBkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T14:36:08.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T14:36:08.501Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Domain\\DTO\\LoginDTO.cs",
               "RelativeDocumentMoniker": "LeaveSystem.Domain\\DTO\\LoginDTO.cs",
@@ -332,12 +359,11 @@
               "RelativeToolTip": "LeaveSystem.Domain\\DTO\\LoginDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T23:18:44.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T23:18:44.816Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "LeaveDTO.cs",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Domain\\DTO\\LeaveDTO.cs",
               "RelativeDocumentMoniker": "LeaveSystem.Domain\\DTO\\LeaveDTO.cs",
@@ -345,12 +371,11 @@
               "RelativeToolTip": "LeaveSystem.Domain\\DTO\\LeaveDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T23:22:33.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T23:22:33.866Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Logout.cshtml.cs",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Account\\Logout.cshtml.cs",
               "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Account\\Logout.cshtml.cs",
@@ -358,12 +383,11 @@
               "RelativeToolTip": "LeaveSystem.UI\\Pages\\Account\\Logout.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T16:11:14.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T16:11:14.25Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Account\\Register.cshtml",
@@ -371,12 +395,11 @@
               "RelativeToolTip": "LeaveSystem.UI\\Pages\\Account\\Register.cshtml",
               "ViewState": "AgIAADwAAAAAAAAAAAAAAEoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-03T07:28:28.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T07:28:28.562Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "RegisterDTO.cs",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Domain\\DTO\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "LeaveSystem.Domain\\DTO\\RegisterDTO.cs",
@@ -384,12 +407,11 @@
               "RelativeToolTip": "LeaveSystem.Domain\\DTO\\RegisterDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T23:17:30.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T23:17:30.555Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "UserServices.cs",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Appliction\\Services\\UserServices.cs",
               "RelativeDocumentMoniker": "LeaveSystem.Appliction\\Services\\UserServices.cs",
@@ -397,12 +419,11 @@
               "RelativeToolTip": "LeaveSystem.Appliction\\Services\\UserServices.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwDYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T06:37:41.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T06:37:41.49Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "ExcpetionAndLoggingMiddleWare.cs",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Infrastructure\\MiddleWare\\ExcpetionAndLoggingMiddleWare.cs",
               "RelativeDocumentMoniker": "LeaveSystem.Infrastructure\\MiddleWare\\ExcpetionAndLoggingMiddleWare.cs",
@@ -410,12 +431,11 @@
               "RelativeToolTip": "LeaveSystem.Infrastructure\\MiddleWare\\ExcpetionAndLoggingMiddleWare.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAkwCkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T20:40:49.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T20:40:49.136Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "LeaveServices.cs",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Appliction\\Services\\LeaveServices.cs",
               "RelativeDocumentMoniker": "LeaveSystem.Appliction\\Services\\LeaveServices.cs",
@@ -423,12 +443,11 @@
               "RelativeToolTip": "LeaveSystem.Appliction\\Services\\LeaveServices.cs",
               "ViewState": "AgIAABAAAAAAAAAAAIA5wB8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T19:49:22.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T19:49:22.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "LeaveRepositories.cs",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Infrastructure\\Respositories\\LeaveRepositories.cs",
               "RelativeDocumentMoniker": "LeaveSystem.Infrastructure\\Respositories\\LeaveRepositories.cs",
@@ -436,12 +455,11 @@
               "RelativeToolTip": "LeaveSystem.Infrastructure\\Respositories\\LeaveRepositories.cs",
               "ViewState": "AgIAABAAAAAAAAAAAIA4wD8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T19:33:12.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T19:33:12.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "IUserRespositories.cs",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Appliction\\Interfaces\\Respositories\\IUserRespositories.cs",
               "RelativeDocumentMoniker": "LeaveSystem.Appliction\\Interfaces\\Respositories\\IUserRespositories.cs",
@@ -449,12 +467,11 @@
               "RelativeToolTip": "LeaveSystem.Appliction\\Interfaces\\Respositories\\IUserRespositories.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAADwvwwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T06:26:09.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T06:26:09.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Dashboard.cshtml",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Manager\\Dashboard.cshtml",
               "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Manager\\Dashboard.cshtml",
@@ -462,12 +479,11 @@
               "RelativeToolTip": "LeaveSystem.UI\\Pages\\Manager\\Dashboard.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAUwCkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-03T20:56:54.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T20:56:54.047Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Leave.cs",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Domain\\Entites\\Leave.cs",
               "RelativeDocumentMoniker": "LeaveSystem.Domain\\Entites\\Leave.cs",
@@ -475,25 +491,11 @@
               "RelativeToolTip": "LeaveSystem.Domain\\Entites\\Leave.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAAwBkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T18:35:58.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T18:35:58.27Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Program.cs",
-              "RelativeDocumentMoniker": "LeaveSystem.UI\\Program.cs",
-              "ToolTip": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Program.cs",
-              "RelativeToolTip": "LeaveSystem.UI\\Program.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAArwFEAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T18:46:48.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "TakeLeave.cshtml",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Employee\\TakeLeave.cshtml",
               "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Employee\\TakeLeave.cshtml",
@@ -501,12 +503,11 @@
               "RelativeToolTip": "LeaveSystem.UI\\Pages\\Employee\\TakeLeave.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAADEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-03T16:30:01.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T16:30:01.05Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "BusinessException.cs",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Appliction\\Exceptions\\BusinessException.cs",
               "RelativeDocumentMoniker": "LeaveSystem.Appliction\\Exceptions\\BusinessException.cs",
@@ -515,18 +516,6 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAArwAoAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-02T20:26:06.449Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "LeaveSystem.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "LeaveSystem.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAvwA4AAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T18:39:28.014Z"
             },
             {
               "$type": "Document",
@@ -555,18 +544,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Index.cshtml",
-              "RelativeToolTip": "LeaveSystem.UI\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-02T21:59:45.035Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Index.cshtml.cs",
@@ -578,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "Logout.cshtml",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Account\\Logout.cshtml",
               "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Account\\Logout.cshtml",
@@ -590,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Shared\\_Layout.cshtml.css",
@@ -602,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\_ViewImports.cshtml",
@@ -614,7 +591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Error.cshtml",
               "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Error.cshtml",
@@ -626,7 +603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\_ViewStart.cshtml",
@@ -638,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -650,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "LeaveSystem.UI\\Properties\\launchSettings.json",
@@ -662,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\Pages\\Privacy.cshtml",
               "RelativeDocumentMoniker": "LeaveSystem.UI\\Pages\\Privacy.cshtml",
@@ -674,7 +651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "site.js",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "LeaveSystem.UI\\wwwroot\\js\\site.js",
@@ -686,7 +663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 39,
               "Title": "20251102212405_intial-migrate.cs",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Infrastructure\\Migrations\\20251102212405_intial-migrate.cs",
               "RelativeDocumentMoniker": "LeaveSystem.Infrastructure\\Migrations\\20251102212405_intial-migrate.cs",
@@ -697,7 +674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 40,
               "Title": "LeaveSystem.UI",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.UI\\LeaveSystem.UI.csproj",
               "RelativeDocumentMoniker": "LeaveSystem.UI\\LeaveSystem.UI.csproj",
@@ -708,7 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 41,
               "Title": "LeaveSystem.Infrastructure.csproj",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Infrastructure\\LeaveSystem.Infrastructure.csproj",
               "RelativeDocumentMoniker": "LeaveSystem.Infrastructure\\LeaveSystem.Infrastructure.csproj",
@@ -720,7 +697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 42,
               "Title": "LeaveStatus.cs",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Domain\\Enums\\LeaveStatus.cs",
               "RelativeDocumentMoniker": "LeaveSystem.Domain\\Enums\\LeaveStatus.cs",
@@ -742,8 +719,8 @@
         "Display": 0,
         "X": 418,
         "Y": 166,
-        "Width": 1251,
-        "Height": 547,
+        "Width": 1250,
+        "Height": 546,
         "WindowState": 2
       },
       "DocumentGroups": [
@@ -753,13 +730,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 2,
               "Title": "UserRepositories.cs",
               "DocumentMoniker": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Infrastructure\\Respositories\\UserRepositories.cs",
               "RelativeDocumentMoniker": "LeaveSystem.Infrastructure\\Respositories\\UserRepositories.cs",
               "ToolTip": "C:\\projects\\Abdullah Bataineh Learning\\Technical-Assessment-Employee-Leave-Request\\LeaveSystem\\LeaveSystem.Infrastructure\\Respositories\\UserRepositories.cs",
               "RelativeToolTip": "LeaveSystem.Infrastructure\\Respositories\\UserRepositories.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAvwCsAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAArwCsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T06:29:23.198Z",
               "EditorCaption": ""
