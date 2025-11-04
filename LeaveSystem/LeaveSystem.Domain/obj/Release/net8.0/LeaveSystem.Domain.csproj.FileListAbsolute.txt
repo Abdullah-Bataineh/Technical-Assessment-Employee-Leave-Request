@@ -1,0 +1,15 @@
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Domain\bin\Release\net8.0\LeaveSystem.Domain.deps.json
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Domain\bin\Release\net8.0\LeaveSystem.Domain.runtimeconfig.json
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Domain\bin\Release\net8.0\LeaveSystem.Domain.dll
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Domain\bin\Release\net8.0\LeaveSystem.Domain.pdb
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Domain\obj\Release\net8.0\LeaveSystem.Domain.csproj.AssemblyReference.cache
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Domain\obj\Release\net8.0\LeaveSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Domain\obj\Release\net8.0\LeaveSystem.Domain.AssemblyInfoInputs.cache
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Domain\obj\Release\net8.0\LeaveSystem.Domain.AssemblyInfo.cs
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Domain\obj\Release\net8.0\LeaveSystem.Domain.csproj.CoreCompileInputs.cache
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Domain\obj\Release\net8.0\LeaveSystem.Domain.sourcelink.json
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Domain\obj\Release\net8.0\LeaveSystem.Domain.dll
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Domain\obj\Release\net8.0\refint\LeaveSystem.Domain.dll
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Domain\obj\Release\net8.0\LeaveSystem.Domain.pdb
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Domain\obj\Release\net8.0\LeaveSystem.Domain.genruntimeconfig.cache
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Domain\obj\Release\net8.0\ref\LeaveSystem.Domain.dll
