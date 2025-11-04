@@ -10,6 +10,7 @@ namespace LeaveSystem.Appliction.Interfaces.Respositories
     public interface ILeaveRepositories
     {
          Task<List<Leave>> GetAll();
+        Task<List<Leave>> GetLeaveByEmployeeId(string EmployeeId);
         Task<Leave> GetById(int id);
         Task Add (Leave leave);
         Task Update (Leave leave);

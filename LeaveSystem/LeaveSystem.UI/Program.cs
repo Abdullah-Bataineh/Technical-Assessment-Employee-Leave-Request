@@ -32,7 +32,14 @@ namespace LeaveSystem.UI
             builder.Services.AddScoped<LeaveServices>();
             // Add services to the container.
             builder.Services.AddRazorPages();
-
+            builder.Services.AddDistributedMemoryCache();
+            builder.Services.AddHttpContextAccessor();      
+            builder.Services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(30);
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
 
             var app = builder.Build();
 
@@ -43,14 +50,57 @@ namespace LeaveSystem.UI
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+            app.UseSession();
             app.UseRouting();
             app.UseMiddleware<ExcpetionAndLoggingMiddleWare>();
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.MapGet("/", async context =>
+            {
+                var userManager = context.RequestServices.GetRequiredService<UserManager<User>>();
 
-            
+                if (context.User.Identity?.IsAuthenticated ?? false)
+                {
+                    var userId = context.User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+                    if (!string.IsNullOrEmpty(userId))
+                    {
+                        var user = await userManager.FindByIdAsync(userId);
+                        if (user != null)
+                        {
+                            context.Session.SetString("FirstName", user.FirstName ?? "");
+                            context.Session.SetString("LastName", user.LastName ?? "");
+                            context.Session.SetString("EmployeeId", user.Id ?? "");
+
+                            var roles = await userManager.GetRolesAsync(user);
+                            context.Session.SetString("Roles", string.Join(",", roles));
+
+                            if (roles.Contains("Employee"))
+                                context.Response.Redirect("/Employee/Dashboard");
+                            else if (roles.Contains("Manager"))
+                                context.Response.Redirect("/Manager/Dashboard");
+                            else
+                                context.Response.Redirect("/Account/Login"); 
+                        }
+                        else
+                        {
+                            context.Response.Redirect("/Account/Login");
+                        }
+                    }
+                    else
+                    {
+                        context.Response.Redirect("/Account/Login");
+                    }
+                }
+                else
+                {
+                    context.Response.Redirect("/Account/Login");
+                }
+
+                await Task.CompletedTask;
+            });
+
             app.MapRazorPages();
 
             app.Run();

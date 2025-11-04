@@ -1,0 +1,53 @@
+﻿@page
+@model LeaveSystem.UI.Pages.Employee.TakeLeaveModel
+@{
+}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm rounded-4">
+                <div class="card-body">
+<h2>Take a Leave</h2>
+@{
+    var firstError = ViewData.ModelState.Values
+    .SelectMany(v => v.Errors)
+    .Select(e => e.ErrorMessage)
+    .FirstOrDefault();
+}
+
+@if (!string.IsNullOrEmpty(firstError))
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @firstError
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+<form method="post">
+    <div class="mb-3">
+        <label asp-for="Input.StartDate" class="form-label"></label>
+        <input asp-for="Input.StartDate" class="form-control" type="date" />
+        <span asp-validation-for="Input.StartDate" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Input.EndDate" class="form-label"></label>
+        <input asp-for="Input.EndDate" class="form-control" type="date" />
+        <span asp-validation-for="Input.EndDate" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Input.Reason" class="form-label"></label>
+        <textarea asp-for="Input.Reason" class="form-control"></textarea>
+        <span asp-validation-for="Input.Reason" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

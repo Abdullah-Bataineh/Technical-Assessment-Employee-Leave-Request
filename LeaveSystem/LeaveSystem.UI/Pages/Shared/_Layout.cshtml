@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@inject IHttpContextAccessor HttpContextAccessor
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -13,19 +14,57 @@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-page="/Index">LeaveSystem.UI</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
+                        @if (HttpContextAccessor.HttpContext?.Session.GetString("Roles")?.Contains("Employee") ?? false)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link @(ViewContext.ActionDescriptor.DisplayName.Contains("/Employee/Dashboard") ? "active" : "")"
+                                   asp-page="/Employee/Dashboard">Leaves</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link @(ViewContext.ActionDescriptor.DisplayName.Contains("/Employee/TakeLeave") ? "active" : "")"
+                                   asp-page="/Employee/TakeLeave">Take A Leave</a>
+                            </li>
+                        }
+                        else if (HttpContextAccessor.HttpContext?.Session.GetString("Roles")?.Contains("Manager") ?? false)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link @(ViewContext.ActionDescriptor.DisplayName.Contains("/Manager/Dashboard") ? "active" : "")"
+                                   asp-page="/Manager/Dashboard">Dashboard</a>
+                            </li>
+                          
+                        }
                     </ul>
+
+                    <ul class="navbar-nav">
+                        @if (HttpContextAccessor.HttpContext?.User.Identity?.IsAuthenticated ?? false)
+                        {
+                            <li class="nav-item">
+                                <span class="nav-link text-dark">
+                                    Hello, @HttpContextAccessor.HttpContext.Session.GetString("FirstName") @HttpContextAccessor.HttpContext.Session.GetString("LastName")
+                                </span>
+                            </li>
+                            <li class="nav-item">
+                                <form method="post" asp-page="/Account/Logout" class="d-inline">
+                                    <button type="submit" class="btn btn-primary">
+                                        Logout
+                                    </button>
+                                </form>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-page="/Account/Login">Login</a>
+                            </li>
+                        }
+                    </ul>
+
                 </div>
             </div>
         </nav>
@@ -45,6 +84,17 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const links = document.querySelectorAll('.navbar-nav .nav-link');
+            links.forEach(link => {
+                link.addEventListener('click', function () {
+                    links.forEach(l => l.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
+        });
+    </script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>

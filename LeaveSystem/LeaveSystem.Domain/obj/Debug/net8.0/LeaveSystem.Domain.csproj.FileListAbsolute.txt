@@ -11,3 +11,5 @@ C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Reque
 C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Domain\obj\Debug\net8.0\refint\LeaveSystem.Domain.dll
 C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Domain\obj\Debug\net8.0\LeaveSystem.Domain.pdb
 C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Domain\obj\Debug\net8.0\ref\LeaveSystem.Domain.dll
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Domain\bin\Debug\net8.0\LeaveSystem.Domain.runtimeconfig.json
+C:\projects\Abdullah Bataineh Learning\Technical-Assessment-Employee-Leave-Request\LeaveSystem\LeaveSystem.Domain\obj\Debug\net8.0\LeaveSystem.Domain.genruntimeconfig.cache

@@ -7,6 +7,7 @@ using LeaveSystem.Appliction.Exceptions;
 using LeaveSystem.Appliction.Interfaces.Respositories;
 using LeaveSystem.Domain.Entites;
 using LeaveSystem.Domain.Enums;
+using Microsoft.EntityFrameworkCore;
 
 namespace LeaveSystem.Appliction.Services
 {
@@ -33,13 +34,24 @@ namespace LeaveSystem.Appliction.Services
             return leave;
         }
 
+        public async Task<List<Leave>> GetLeaveByEmployeeId(string EmployeeId)
+        {
+            var leave=await _leaveRepositories.GetLeaveByEmployeeId(EmployeeId);
+            if (leave == null)
+            {
+                throw new BusinessException($"Leaves with EmployeeId {EmployeeId} not found");
+            }
+            return leave;
+        }
+
+
         public async Task AddLeave(Leave leave)
         {
             if (string.IsNullOrWhiteSpace(leave.Reason))
             {
                 throw new BusinessException("Reason is Required");
             }
-            if (leave.StartDate < leave.EndDate)
+            if (leave.StartDate.Date > leave.EndDate.Date)
             {
                 throw new BusinessException("End date cannot be earlier then start date");
             }
@@ -54,7 +66,7 @@ namespace LeaveSystem.Appliction.Services
             if (leave.Status != LeaveStatus.Pending) {
                 throw new BusinessException("Only Pending Leave can be Approve");
             }
-            leave.Status = LeaveStatus.Pending;
+            leave.Status = LeaveStatus.Approved;
             await _leaveRepositories.Update(leave);
         }
 
