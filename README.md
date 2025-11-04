@@ -2,7 +2,7 @@
 
 
 <div align="center">
-    <img src="leavesystem.png" alt="Logo" width="500"/>
+    <img src="leavesystem.png" alt="Logo" width="250"/>
 </div>
 
 # Leave System 
